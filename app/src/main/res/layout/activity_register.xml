@@ -5,41 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:backgroundTint="#F3EBEB"
+    android:backgroundTint="#FFFFFF"
+    app:circularflow_radiusInDP="?attr/motionEasingStandard"
     tools:context=".MainActivity">
 
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button2"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="332dp"
         android:backgroundTint="#FFFFFF"
+        android:radius="0dp"
         android:text="Sign up with Google"
+
         android:textColor="#000000"
+        app:circularflow_defaultRadius="@dimen/material_emphasis_disabled_background"
         app:icon="@drawable/ic_google"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintHorizontal_bias="0.448"
         app:layout_constraintStart_toStartOf="parent" />
-//
+
     <Button
-        android:id="@+id/button"
-        style="?attr/materialButtonOutlinedStyle"
+        android:id="@+id/buttonkayit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="272dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Sign up with mail"
-        android:textColor="#000000"
+        android:background="#132139"
+        android:text="  Sign up with mail"
+        android:textColor="#FDF9F9"
+        android:textColorHighlight="@color/grey"
+        android:textColorLink="#545B8A"
         app:icon="@drawable/mail"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.439"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#432F2F" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/text_kayit"
         android:layout_width="298dp"
         android:layout_height="90dp"
         android:text="      Sign Up"
